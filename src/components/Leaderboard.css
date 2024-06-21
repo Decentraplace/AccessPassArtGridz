@@ -1,0 +1,58 @@
+.leaderboard {
+    background-color: #67e4a4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #4e4a70;
+    margin: 20px;
+    padding: 20px;
+    max-width: max-content;
+    font-family: Arial, sans-serif;
+  }
+  
+  .leaderboard h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .leaderboard ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    background: #fff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #6c42ba;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 1em;
+  }
+  
