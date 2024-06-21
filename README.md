@@ -1,55 +1,67 @@
-# CRA JavaScript Starter
+React Interface for ACCESSPASSGRIDZ
+This project provides a user interface built with React for interacting with the ACCESSPASSGRIDZ contract deployed on Ethereum. It allows users to purchase access passes, color pixels on a grid, and participate in events where rewards are distributed based on activity.
 
-Starter kit to build with Create React App and thirdweb without additional initial configuration.
+Features
+Access Pass Purchase: Users can purchase access passes using ETH or by owning a specific NFT.
+Pixel Coloring: Once an access pass is acquired, users can color pixels on a predefined grid.
+Event Participation: The interface tracks the number of pixels colored by each user. When a certain number of pixels are colored by all users combined, rewards are distributed to active participants.
+Leaderboard: Users can see their total colored pixels and track their ranking on the leaderboard.
+Requirements
+To run this project locally, you need:
 
-## Installation
+Node.js installed on your local machine.
+Access to the Ethereum network where ACCESSPASSGRIDZ contract is deployed.
+Setup Instructions
+Clone the Repository:
 
-Install the template with [thirdweb create](https://portal.thirdweb.com/cli/create)
+bash
+Code kopieren
+git clone <repository-url>
+cd <repository-directory>
+Install Dependencies:
 
-```bash
- npx thirdweb create --template cra-javascript-starter
-```
+bash
+Code kopieren
+npm install
+Configure Environment Variables:
 
-## Run Locally
+Create a .env file in the root directory.
+Define necessary environment variables (e.g., contract address, RPC endpoint).
+Run the Application:
 
-Install dependencies
+bash
+Code kopieren
+npm start
+This will start the development server. Open http://localhost:3000 to view it in the browser.
 
-```bash
-yarn
-```
+Usage
+Purchase Access Pass:
 
-Start the server
+Navigate to the access pass purchase section.
+Select the desired access pass option and complete the transaction.
+Color Pixels:
 
-```bash
-yarn start
-```
+Navigate to the pixel grid.
+Click on available pixels to color them. Ensure you have enough time on your access pass.
+Monitor Events:
 
-## Environment Variables
+Check the status of ongoing events and your participation level.
+Await rewards distribution upon event completion.
+Technologies Used
+React.js
+Web3.js (for Ethereum interaction)
+HTML/CSS
+Contributing
+Contributions to improve the interface or add new features are welcome. Follow these steps to contribute:
 
-To run this project, you will need to add the `CLIENT_ID` variables to your .env file.
-
-You can generate your `clientId` and `secretKey` via thirdweb's [dashboard](https://thirdweb.com/create-api-key).
-
-## Deployment
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
-## Additional Resources
-
-- [Documentation](https://portal.thirdweb.com)
-- [Templates](https://thirdweb.com/templates)
-- [Video Tutorials](https://youtube.com/thirdweb_)
-- [Blog](https://blog.thirdweb.com)
-
-## Contributing
-
-Contributions and [feedback](https://feedback.thirdweb.com) are always welcome!
-
-Please visit our [open source page](https://thirdweb.com/open-source) for more information.
+Fork the repository.
+Create a new branch (git checkout -b feature/feature-name).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/feature-name).
+Create a new Pull Request.
+License
+This project is licensed under the MIT License.
 
 ## Need help?
 
