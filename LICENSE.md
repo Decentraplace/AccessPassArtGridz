@@ -173,6 +173,10 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     incurred by, or claims asserted against, such Contributor by reason
     of your accepting any such warranty or additional liability.
 
+    
+Additional terms:
+- You must give appropriate credit, providing a link to Daniel Komyschew's LinkedIn https://www.linkedin.com/in/daniel-komyschew-22a924213/, when using, reproducing, modifying, or distributing the software or its derivative works.
+- When using, reproducing, modifying, or distributing the software or its derivative works, you must include a mention inspired by "ArtGridz" in every social media post related to the software.
 END OF TERMS AND CONDITIONS
 
 APPENDIX: How to apply the Apache License to your work.
